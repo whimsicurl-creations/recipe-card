@@ -1,0 +1,147 @@
+body {
+  background: #DAF7F6;
+  color: #3B3B3B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+header {
+  background: white;
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0;
+  padding: 40px 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #F16059;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header img {
+  margin-right: 25px;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.image {
+  float: left;
+  width: 500px;
+  height: 550px;
+}
+
+.recipe {
+  float: left;
+  padding: 20px;
+  width: 500px;
+  height: 550px;
+  background: white;
+  box-sizing: border-box;
+}
+
+.recipe h2 {
+  color: #F16059;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0 25px;
+  text-transform: uppercase;
+}
+
+.time {
+  border: 1px solid #3B3B3B;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.time .cook {
+  border-left: 1px solid #3B3B3B;
+  border-right: 1px solid #3B3B3B;
+}
+
+.time > div {
+  box-sizing: border-box;
+  float: left;
+  padding-left: 6px;
+  width: 33.3333%;
+}
+
+.time > div > img {
+  width: 15px;
+  height: auto;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.time-details {
+  display: inline-block;
+}
+
+.time strong {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.columns {
+  overflow: hidden;
+}
+
+.directions {
+  float: left;
+  width: 240px;
+}
+
+.ingredients {
+  float: left;
+  margin-right: 15px;
+  width: 205px;
+}
+
+.ingredients ul {
+  line-height: 2;
+  list-style-type: square;
+  padding-left: 15px;
+}
+
+.directions ol {
+  line-height: 2;
+  padding-left: 15px;
+}
+
+.recipe h3 {
+  border-top: 1px solid #3B3B3B;
+  border-bottom: 1px solid #3B3B3B;
+  color: #F16059;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+#cookies .image {
+  background-image: url("../img/gluten-free-sugar-cookies.jpg");
+  background-size: cover;
+}
+
+#pesto .image {
+  background-image: url("../img/nut-free-pesto.jpg");
+  background-size: cover;
+}
+
+#salad .image {
+  background-image: url("../img/watermelon-salad.jpg");
+  background-size: cover;
+}
